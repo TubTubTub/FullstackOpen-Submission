@@ -65,16 +65,16 @@ describe('Blog app', () => {
             })
 
             test('a blog can be liked', async ({ page }) => {
-                await page.getByRole('button', { name: 'view' }).click()
+                await page.getByRole('button', { name: 'view' }).first().click()
                 await page.getByRole('button', { name: 'like' }).click()
                 
-                const likeMessage = await page.getByText('likes 1')
+                const likeMessage = await page.getByText('likes 1').first()
                 await expect(likeMessage).toBeVisible()
             })
 
             test('a blog can be deleted', async ({ page }) => {
                 await page.on('dialog', dialog => dialog.accept())
-                await page.getByRole('button', { name: 'view ' }).click()
+                await page.getByRole('button', { name: 'view ' }).first().click()
                 await page.getByRole('button', { name: 'remove ' }).click()
 
                 const blogMessage = await page.getByText('Example title Example author')
@@ -108,12 +108,12 @@ describe('Blog app', () => {
         await createBlog(page, { title: 'Example title 2', author: 'Example author 2', url: 'Example URL 2'})   
 
         await page.getByRole('button', { name: 'view' }).nth(0).click()
-        await page.getByRole('button', { name: 'view' }).click()
+        await page.getByRole('button', { name: 'view' }).nth(0).click()
         
         await page.getByRole('button', { name: 'like' }).nth(1).click()
         
         await page.reload()
-        await page.getByText('Example title 1 Example author 1').waitFor()
+        await page.getByText('Example title 1 Example author 1').first().waitFor()
 
         const firstBlogDiv = page.locator('.blogClass').nth(0)
         await expect(firstBlogDiv).toContainText('Example title 2 Example author 2')
