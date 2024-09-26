@@ -1,0 +1,204 @@
+Script started on 2024-09-09 17:45:32+01:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="205" LINES="13"]
+[?2004h]0;root@Toby: /mnt/c/Users/Python/Documents/FullstackOpen-Containersroot@Toby:/mnt/c/Users/Python/Documents/FullstackOpen-Containers# docker start -i wizardly_euci[Klid
+[?2004l
+[?2004h]0;root@008d2700d9d7: /root@008d2700d9d7:/# apt-get update
+[?2004l
+
+0% [Working]
+            
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+
+0% [Waiting for headers]
+                        
+Hit:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+
+0% [Waiting for headers] [Waiting for headers]
+                                              
+Hit:3 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+
+                                              
+0% [Waiting for headers]
+0% [Waiting for headers]
+                        
+Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+
+                        
+0% [Working]
+0% [Working]
+0% [Working]
+20% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+ap
+Reading package lists... 69%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+[?2004h]0;root@008d2700d9d7: /root@008d2700d9d7:/# ap  apt-get -y install nano
+[?2004l
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 61%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 77%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 98%
+
+Reading state information... Done
+
+nano is already the newest version (7.2-2build1).
+0 upgraded, 0 newly installed, 0 to remove and 29 not upgraded.
+[?2004h]0;root@008d2700d9d7: /root@008d2700d9d7:/# nano /usr /  /src/app/index.js
+[?2004l
+[?2004h[?1049h[22;0;0t[1;13r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[11;96H(B[0;7m[ Reading... ](B[m[11;95H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 7.2 [79b/usr/src/app/index.js [88b [1;204H(B[m
+[12d(B[0;7m^G(B[m Help[12;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[12;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[12;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous     (B[0;7m^B(B[m Back[12;188H(B[0;7m^Left(B[m Prev Word
+[13d(B[0;7m^X(B[m Exit[13;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[13;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[13;120H(B[0;7mM-6(B[m Copy[13;137H(B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next[13;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^Right(B[m Next Word
+[2d[?12l[?25h[?25l[1;117H(B[0;7m*[204G(B[m[?12l[?25h
+[2dc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hg[?25l[?12l[?25h([?25l[?12l[?25h'[?25l[?12l[?25hH[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25h[42m [49m(B[m[?25l
+[11d[K[?12l[?25h[2;19H w[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h W[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[?12l[?25h[2;13H(B[0;1m[35m'Hello World'[39m(B[m[?25l[?12l[?25h)[?25l
+[11d(B[0;7mSave modified buffer? [182b [12;1H Y(B[m Yes[K
+[13d(B[0;7m N(B[m No  [13;17H(B[0;7m^C(B[m Cancel[K[11;23H[?12l[?25h[?25l
+[12d(B[0;7m^G(B[m Help[12;52H(B[0;7mM-D(B[m DOS Format[12;103H(B[0;7mM-A(B[m Append[12;154H(B[0;7mM-B(B[m Backup File
+[13d(B[0;7m^C(B[m Cancel[17G [8b[13;52H(B[0;7mM-M(B[m Mac Format[13;103H(B[0;7mM-P(B[m Prepend[13;154H(B[0;7m^T(B[m Browse
+[11d(B[0;7mFile Name to Write: /usr/src/app/index.js(B[m[?12l[?25h[?25l[11;96H[1K (B[0;7m[ Cancelled ](B[m[K[12;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut [10b(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[12;105H(B[0;7mU(B[m Undo  [120G(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous     (B[0;7m^B(B[m Back[12;188H(B[0;7m^Left(B[m Prev Word[13;2H(B[0;7mX(B[m Exit  [13;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste [8b(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line[105G(B[0;7mE(B[m Redo   [120G(B[0;7mM-6(B[m Copy[13;137H(B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next [13;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^Right(B[m Next Word[?12l[?25h[2;27H[?25l[?12l[?25h
+[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[11d[K[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[12;18H[28X[12;52H(B[0;7mM-D(B[m DOS Format [12b[86G [10b[12;105H(B[0;7mA(B[m Append[120G[34X[12;154H(B[0;7mM-B(B[m Backup File[K[13;2H(B[0;7mC(B[m Cancel[13;18H[27X[13;52H(B[0;7mM-M(B[m Mac Format [12b[86G [12b[105G(B[0;7mP(B[m Prepend[120G [7b[13;137H[17X[13;154H(B[0;7m^T(B[m Browse[K
+[11d(B[0;7mFile Name to Write: /usr/src/app/index.js [162b [11;42H(B[m[?12l[?25h[?25l[11;95H[1K (B[0;7m[ Writing... ](B[m[K[1;117H(B[0;7m [204G(B[m[11;95H(B[0;7m[ Wrote 1 line ](B[m[12;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut [10b(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[12;105H(B[0;7mU(B[m Undo  [120G(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous     (B[0;7m^B(B[m Back[12;188H(B[0;7m^Left(B[m Prev Word[13;2H(B[0;7mX(B[m Exit  [13;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste [8b(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line[105G(B[0;7mE(B[m Redo   [120G(B[0;7mM-6(B[m Copy[13;137H(B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next [13;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^Right(B[m Next Word[?12l[?25h
+[3d[?25l[11d[J[13d[?12l[?25h[13;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;root@008d2700d9d7: /root@008d2700d9d7:/# [Kexit
+[?2004l
+exit
+[?2004h]0;root@Toby: /mnt/c/Users/Python/Documents/FullstackOpen-Containersroot@Toby:/mnt/c/Users/Python/Documents/FullstackOpen-Containers# exit
+[?2004l
+exit
+
+Script done on 2024-09-09 17:47:27+01:00 [COMMAND_EXIT_CODE="0"]

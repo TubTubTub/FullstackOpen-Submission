@@ -1,0 +1,2 @@
+docker run -e POSTGRES_PASSWORD=mysecretpassword -v ./postgres-data:/var/lib/postgresgl/data  -p 5432:5432 postgres
+docker exec -it 4cf psql -U postgres postgres
